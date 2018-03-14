@@ -14,14 +14,19 @@ h2{
 p:nth-child(even){
 	font-style:italic;
 }
+p{
+	padding:2em;
+}
 menu a{
 	color:#52b3d9;
 	text-decoration:none;
 }
+menu a:visited{
+	color:#674172;
+}
 menu a:hover{
 	color:#26a65b;
 }
-
 #lorem {
 	color:#26a65b;
 }
