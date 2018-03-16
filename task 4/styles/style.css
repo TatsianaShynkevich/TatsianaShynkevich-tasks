@@ -46,3 +46,10 @@ td{
 .upper{
 	text-transform:uppercase;
 }
+.center{
+	text-align:center;
+}
+table{
+	margin:0 auto;
+	width:1200px;
+}
