@@ -1,0 +1,48 @@
+body{
+	background: url('../images/corrugation.png') repeat;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:20px;	
+}
+h1{
+	text-align:center;
+	letter-spacing: 0.5em;
+}
+nav ul{
+	clear:both;
+}
+nav li{
+	float: left;
+	margin-right:2%;
+	list-style-image: url(../images/checkmark.png);
+	list-style-position: inside;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+p:nth-child(even){
+	font-style:italic;
+}
+p{
+	padding:0.5em;
+}
+nav a{
+	color:#52b3d9;
+	text-decoration:none;
+}
+nav a:visited{
+	color:#674172;
+}
+nav a:hover{
+	color:#26a65b;
+}
+table{
+	border-collapse: collapse;
+}
+td{
+	border: 1px solid #013243;
+}
+.upper{
+	text-transform:uppercase;
+}
