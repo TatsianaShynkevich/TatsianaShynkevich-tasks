@@ -21,12 +21,7 @@ nav li{
     display: table;
     clear: both;
 }
-p:nth-child(even){
-	font-style:italic;
-}
-p{
-	padding:0.5em;
-}
+
 nav a{
 	color:#52b3d9;
 	text-decoration:none;
@@ -37,8 +32,16 @@ nav a:visited{
 nav a:hover{
 	color:#26a65b;
 }
+p:nth-child(even){
+	font-style:italic;
+}
+p{
+	padding:0.5em;
+}
 table{
 	border-collapse: collapse;
+	margin:0 auto;
+	width:1200px;	
 }
 td{
 	border: 1px solid #013243;
@@ -48,8 +51,4 @@ td{
 }
 .center{
 	text-align:center;
-}
-table{
-	margin:0 auto;
-	width:1200px;
 }
