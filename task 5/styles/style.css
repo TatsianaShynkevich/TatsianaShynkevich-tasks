@@ -93,70 +93,70 @@ table {
 	margin:10px;
 	border-radius:3px;
 }
-#facebook{
+.facebook{
 	background-position:0px -21px;/*первая цифра по-горизонтали, вторая по-вертикали*/
 }
-#flickr{
+.flickr{
 	background-position:-21px -21px;
 }
-#drible{
+.drible{
 	background-position:-42px -21px; 	
 }
-#google{
+.google{
 	background-position:-63px -21px; 	
 }
-#linkedin{
+.linkedin{
 	background-position:-84px -21px; 	
 }
-#pinterest{
+.pinterest{
 	background-position:-105px -21px; 	
 }
-#rss{
+.rss{
 	background-position:-126px -21px; 	
 }
-#skype{
+.skype{
 	background-position:-147px -21px; 	
 }
-#twitter{
+.twitter{
 	background-position:-168px -21px; 	
 }
-#vimeo{
+.vimeo{
 	background-position:-189px -21px; 	
 }
-#youtube{
+.youtube{
 	background-position:-210px -21px; 	
 }
-#facebook:hover{
+.facebook:hover{
 	background-position:0px -42px;
 }
-#flickr:hover{
+.flickr:hover{
 	background-position:-21px -42px;
 }
-#drible:hover{
+.drible:hover{
 	background-position:-42px -42px; 	
 }
-#google:hover{
+.google:hover{
 	background-position:-63px -42px; 	
 }
-#linkedin:hover{
+.linkedin:hover{
 	background-position:-84px -42px; 	
 }
-#pinterest:hover{
+.pinterest:hover{
 	background-position:-105px -42px; 	
 }
-#rss:hover{
+.rss:hover{
 	background-position:-126px -42px; 	
 }
-#skype:hover{
+.skype:hover{
 	background-position:-147px -42px; 	
 }
-#twitter:hover{
+.twitter:hover{
 	background-position:-168px -42px; 	
 }
-#vimeo:hover{
+.vimeo:hover{
 	background-position:-189px -42px; 	
 }
-#youtube:hover{
+.youtube:hover{
 	background-position:-210px -42px; 	
 }
 #light_div{
