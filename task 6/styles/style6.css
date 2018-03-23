@@ -1,221 +1,233 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/***************************************/
-.ts-wrapper{
-	width:1200px;
-	margin:auto;
-}
-.ts-header{
-	background-color:#f5f6f2;
-	height:200px;
-	overflow:hidden;
-	position:relative;
-}
-.ts-social-sprites-background{
-	background-color:#f5f6f2;
-	display:flex;
-	flex-direcrion:row;
-	flex-wrap: wrap;	
-	justify-content:center;
-	align-items:center;
-}
-.ts-header__social-sprites-background--rotate{
-	transform: rotate(-6deg);
-	position:relative;
-	top:-100px;
+.ts-page__wrapper {
+	width: 1200px;
+	margin: auto;
 }
 
-.ts-social-sprite{
-	background: url(../images/spice-social-gadget-sprite.png) no-repeat;
-	border-radius:3px;
+.ts-wrapper {
+
 }
-.ts-social-sprite--small{
-	background-size:231px 63px;	
-	height:21px;
-	width:21px;
-	margin:10px;
+
+.ts-wrapper__header {
+	position: relative;
+	height: 200px;
+	overflow: hidden;	
 }
-.ts-social-sprite--facebook{
-	background-position:0px -21px;/*первая цифра по-горизонтали, вторая по-вертикали*/
+
+.ts-header {
+	height: 100%;	
+	background-color: #f5f6f2;
 }
-.ts-social-sprite--flickr{
-	background-position:-21px -21px;
+
+.ts-header__social-sprites-container {
+	position: absolute;
+	top: -100px;
 }
-.ts-social-sprite--drible{
-	background-position:-42px -21px; 	
+
+.ts-social-sprites-container {
+	display: flex;
+	flex-wrap:  wrap;	
+	justify-content: center;
+	align-items: center;
 }
-.ts-social-sprite--google{
-	background-position:-63px -21px; 	
+
+.social-sprites-container_rotate {
+	transform:  rotate(-6deg);
 }
-.ts-social-sprite--linkedin{
-	background-position:-84px -21px; 	
+
+.ts-social-sprite {
+	border-radius: 3px;
+	background:  url(../images/spice-social-gadget-sprite.png) no-repeat;	
 }
-.ts-social-sprite--pinterest{
-	background-position:-105px -21px; 	
+.ts-social-sprite_small {
+	height: 21px;
+	width: 21px;
+	margin: 10px;
+	background-size: 231px 63px;		
 }
-.ts-social-sprite--rss{
-	background-position:-126px -21px; 	
+.ts-social-sprite_facebook {
+	background-position: 0px -21px;/*первая цифра по-горизонтали, вторая по-вертикали*/
 }
-.ts-social-sprite--skype{
-	background-position:-147px -21px; 	
+
+.ts-social-sprite_flickr {
+	background-position: -21px -21px;
 }
-.ts-social-sprite--twitter{
-	background-position:-168px -21px; 	
+
+.ts-social-sprite_drible {
+	background-position: -42px -21px; 	
 }
-.ts-social-sprite--vimeo{
-	background-position:-189px -21px; 	
+
+.ts-social-sprite_google {
+	background-position: -63px -21px; 	
 }
-.ts-social-sprite--youtube{
-	background-position:-210px -21px; 	
+
+.ts-social-sprite_linkedin {
+	background-position: -84px -21px; 	
 }
-.ts-social-sprite--facebook:hover{
-	background-position:0px -42px;
+
+.ts-social-sprite_pinterest {
+	background-position: -105px -21px; 	
 }
-.ts-social-sprite--flickr:hover{
-	background-position:-21px -42px;
+
+.ts-social-sprite_rss {
+	background-position: -126px -21px; 	
 }
-.ts-social-sprite--drible:hover{
-	background-position:-42px -42px; 	
+
+.ts-social-sprite_skype {
+	background-position: -147px -21px; 	
 }
-.ts-social-sprite--google:hover{
-	background-position:-63px -42px; 	
+
+.ts-social-sprite_twitter {
+	background-position: -168px -21px; 	
 }
-.ts-social-sprite--linkedin:hover{
-	background-position:-84px -42px; 	
+
+.ts-social-sprite_vimeo {
+	background-position: -189px -21px; 	
 }
-.ts-social-sprite--pinterest:hover{
-	background-position:-105px -42px; 	
+
+.ts-social-sprite_youtube {
+	background-position: -210px -21px; 	
 }
-.ts-social-sprite--rss:hover{
-	background-position:-126px -42px; 	
+
+.ts-social-sprite_facebook: hover {
+	background-position: 0px -42px;
 }
-.ts-social-sprite--skype:hover{
-	background-position:-147px -42px; 	
+
+.ts-social-sprite_flickr: hover {
+	background-position: -21px -42px;
 }
-.ts-social-sprite--twitter:hover{
-	background-position:-168px -42px; 	
+
+.ts-social-sprite_drible: hover {
+	background-position: -42px -42px; 	
 }
-.ts-social-sprite--vimeo:hover{
-	background-position:-189px -42px; 	
+
+.ts-social-sprite_google: hover {
+	background-position: -63px -42px; 	
 }
-.ts-social-sprite--youtube:hover{
-	background-position:-210px -42px; 	
+
+.ts-social-sprite_linkedin: hover {
+	background-position: -84px -42px; 	
 }
-.ts-social-sprites-caption{
-	text-align:center;
-	font-family: 'Over the Rainbow', cursive;
-	font-size: 14px;
-	text-transform:capitalize;
-	background-color:rgba(253,253,253,0.9);
-	outline: 2px solid #666;
-	outline-offset: -10px;
-	width:196px;	
-	height:50px;
-	line-height:50px;	
+
+.ts-social-sprite_pinterest: hover {
+	background-position: -105px -42px; 	
 }
-.ts-social-sprites-caption--medium{
-	width:196px;	
-	height:50px;
-	line-height:50px;	
+
+.ts-social-sprite_rss: hover {
+	background-position: -126px -42px; 	
 }
-.ts-header__social-sprites-caption{
-	position:absolute;
-	top:75px;
-	left:502px;
+
+.ts-social-sprite_skype: hover {
+	background-position: -147px -42px; 	
 }
-.ts-content-container{
-	height:117px;
-	margin:8px;	
+
+.ts-social-sprite_twitter: hover {
+	background-position: -168px -42px; 	
 }
-.ts-content-container--light{
-	border:1px solid #eaeaea;
-	border-radius:1px;
+
+.ts-social-sprite_vimeo: hover {
+	background-position: -189px -42px; 	
 }
-.ts-content-container--dark{
-	background-color:#333333;	
+
+.ts-social-sprite_youtube: hover {
+	background-position: -210px -42px; 	
 }
-.ts-button-box{
-	width:180px;
-	padding:12px 0 0 18px;
+
+.ts-header__social-sprites-caption {
+	position: absolute;
+	top: 75px;
+	left: 502px;
 }
-.ts-button{
-	color:#ffffff;
-	border-radius:1px;
-	box-shadow: 0 1px 1px rgba(30,30,30,0.7);
-	text-shadow: 1px -1px 1px #4e4e4e;
-	border:none;
+
+.ts-social-sprites-caption {
+	font-family:  'Over the Rainbow', cursive;	
+	font-size:  14px;	
+	text-align: center;
+	text-transform: capitalize;
+	outline:  2px solid #666;
+	outline-offset:  -10px;
+	background-color: rgba(253,253,253,0.9);	
 }
-.ts-button--big{
-	font-size:14px;		
-	width:110px;
-	height:25px;
+
+.ts-social-sprites-caption_medium {
+	width: 196px;	
+	height: 50px;
+	line-height: 50px;	
 }
-.ts-button--medium{
-	font-size:8px;
-	width:64px;
-	height:16px;
+
+.ts-wrapper__content-container {
+	height: 117px;
+	margin: 8px;
 }
-.ts-button--small{
-	font-size:6px;
-	width:55px;
-	height:15px;
+
+.ts-content-container {
+	height:  100%;
 }
-.ts-button--pink{
-	background: linear-gradient(to bottom, #e956ab, #e52094);
+
+.ts-content-container_theme-light {
+	border-style: 1px solid #eaeaea;/*!!!!!!!!!!!!*/
+	border-radius: 1px;
 }
-.ts-button--green{
-	background: linear-gradient(to bottom, #abcc43, #9dc819);
+
+.ts-content-container_theme-dark {
+	background-color: #333333;	
 }
-.ts-button--blue{
-	background: linear-gradient(to bottom, #5d9ee9, #3f8fe9);
+
+.ts-button-box__row {
+	width: 250px;
+	padding: 6px;	
 }
-.ts-button--red{
-	background: linear-gradient(to bottom, #ec5b5b, #eb3d3d);
+
+.ts-button-box {
+
 }
-.ts-button--orange{
-	background: linear-gradient(to bottom, #ff823e, #ff6e1a);
+
+.ts-button {
+
+	color: #ffffff;
+	text-shadow:  1px -1px 1px #4e4e4e;		
+	border: none;	
+	border-radius: 1px;
+	box-shadow:  0 1px 1px rgba(30,30,30,0.7);
 }
-.ts-button--yellow{
-	background: linear-gradient(to bottom, #ffc74c, #ffbe2d);
+
+.ts-button_big {
+	width: 110px;
+	height: 25px;
+	font-size: 14px;	
+}
+
+.ts-button_medium {
+	width: 64px;
+	height: 16px;
+	font-size: 8px;	
+}
+
+.ts-button_small {
+	width: 55px;
+	height: 15px;
+	font-size: 6px;	
+}
+
+.ts-button_pink {
+	background:  linear-gradient(to bottom, #e956ab, #e52094);
+}
+
+.ts-button_green {
+	background:  linear-gradient(to bottom, #abcc43, #9dc819);
+}
+
+.ts-button_blue {
+	background:  linear-gradient(to bottom, #5d9ee9, #3f8fe9);
+}
+
+.ts-button_red {
+	background:  linear-gradient(to bottom, #ec5b5b, #eb3d3d);
+}
+
+.ts-button_orange {
+	background:  linear-gradient(to bottom, #ff823e, #ff6e1a);
+}
+
+.ts-button_yellow {
+	background:  linear-gradient(to bottom, #ffc74c, #ffbe2d);
 }
