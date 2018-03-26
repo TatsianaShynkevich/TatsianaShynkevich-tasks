@@ -1,0 +1,392 @@
+/*@font-face{
+font-family: 'SourceSansPro-Regular';
+src: url('../fonts/Source Sans Pro/SourceSansPro-Regular.eot');
+src: url('../fonts/Source Sans Pro/SourceSansPro-Regular.eot?iefix') format('eot'),
+url('../fonts/Source Sans Pro/SourceSansPro-Regular.woff') format('woff'),
+url('../fonts/Source Sans Pro/SourceSansPro-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}*/
+@font-face {
+	font-family: 'SourceSansPro-Regular';
+	src: url('../fonts/Source Sans Pro/SourceSansPro-Regular.eot?') format('eot'), 
+	     url('../fonts/Source Sans Pro/SourceSansPro-Regular.woff') format('woff'), 
+	     url('../fonts/Source Sans Pro/SourceSansPro-Regular.ttf')  format('truetype'),
+	     url('../fonts/Source Sans Pro/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+	}
+@font-face {
+	font-family: 'SourceSansPro-Light';
+	src: url('../fonts/Source Sans Pro/SourceSansPro-Light.eot?') format('eot'), 
+	     url('../fonts/Source Sans Pro/SourceSansPro-Light.woff') format('woff'), 
+	     url('../fonts/Source Sans Pro/SourceSansPro-Light.ttf')  format('truetype'),
+	     url('../fonts/Source Sans Pro/SourceSansPro-Light.svg#SourceSansPro-Light') format('svg');
+	}
+@font-face {
+	font-family: 'SourceSansPro-Black';
+	src: url('../fonts/Source Sans Pro/SourceSansPro-Black.eot?') format('eot'), 
+	     url('../fonts/Source Sans Pro/SourceSansPro-Black.woff') format('woff'), 
+	     url('../fonts/Source Sans Pro/SourceSansPro-Black.ttf')  format('truetype'),
+	     url('../fonts/Source Sans Pro/SourceSansPro-Black.svg#SourceSansPro-Black') format('svg');/*??????*/
+	}
+	
+	
+.ts-page__wrapper {
+	position:relative;/*??????*/
+}
+
+.ts-wrapper {
+
+}
+
+.ts-wrapper__header {
+	position:absolute;/*??????*/
+	top:0;
+	width: 80%;
+	margin: 2% 10%;/*??????*/
+}
+
+.ts-header {
+	display: flex;
+}
+
+.ts-header__logo {
+	flex-basis: 60%;
+}
+.ts-logo {
+	font-family: 'SourceSansPro-Black';
+	font-size: 17px;
+	color: #312728;
+	text-shadow:  1px 1px 0px #fff3f0;
+}
+.ts-header__menu {
+	flex-basis:40%;
+}
+
+.ts-menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ts-menu__item {
+	list-style: none;
+	font-family: 'SourceSansPro-Regular';
+	font-size: 17px;
+	color: #686868;	
+	text-transform: uppercase;
+}
+
+.ts-menu__item:hover {
+	color: #e0b37c;	
+}
+
+.ts-wrapper__welcome-page {
+	height:100vh;
+}
+
+.ts-welcome-page {
+	height:100%;	
+}
+
+.ts-row {
+	display:flex;
+	height:100%;
+}
+
+.ts-tile_size1 {
+	flex-basis:25%;
+	height:100%;	
+}
+
+.ts-tile_size2 {
+	flex-basis:50%;
+	height:100%;	
+}
+
+.ts-tile_size4 {
+	flex-basis:100%;
+	height:100%;	
+}
+
+.ts-tile__layout { 
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	height:100%;
+	margin:0 5%;
+}
+
+.ts-tile_beige {
+	background-color: #f0e2d7;
+}
+
+.ts-tile_mustard {
+	background-color: #e4ae58;
+}
+
+.ts-tile_salmon {
+	background-color: #e9714c;
+}
+
+.ts-tile_dark {
+	background-color: #161616;
+}
+
+.ts-tile_light {
+	background-color: #ffffff;
+}
+
+.ts-tile_photo-welcome {
+	background:  url(../images/5.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;/*сделать адаптивным*/
+}
+
+.ts-tile_photo-about-me {
+	background:  url(../images/1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;/*сделать адаптивным*/
+}
+
+.ts-tile_photo-my-experiences {
+	background:  url(../images/4.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;/*сделать адаптивным*/	
+}
+
+.ts-tile_photo-my-education {
+	background:  url(../images/3.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;/*сделать адаптивным*/	
+}
+
+.ts-tile_photo-summary {
+	background:  url(../images/6.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;/*сделать адаптивным*/
+}
+
+.ts-tile_photo-contacts {
+	background:  url(../images/2.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;/*сделать адаптивным*/
+}
+
+.ts-caption {
+	font-family: 'SourceSansPro-Light';
+	font-size: 40px;
+}
+
+.ts-caption__layout {
+	margin:40px 0;
+}
+
+.ts-caption_dark {
+	color: #161616;
+}
+
+.ts-caption_light {
+	color: #fff;
+}
+
+.ts-subtitle {
+	font-family: 'SourceSansPro-Regular';
+	font-size: 10px;
+}
+
+.ts-subtitle_dark {
+	color: #a2a39e;
+}
+
+.ts-subtitle_light {
+	color: #fff;
+}
+
+.ts-subtitle_dark-beige {
+	color: #ceb2a6;
+}
+
+.ts-subtitle_uppercase {
+	text-transform:uppercase;
+}
+
+.ts-text-container{
+	line-height:2em;
+	font-family: 'SourceSansPro-Regular';
+	font-size: 14px;
+}
+
+.ts-text__layout {
+	margin:30px 0;
+}
+
+.ts-text-container_dark {
+	color: #a2a39e;
+}
+
+.ts-text-container_light {
+	color: #ffe9d7;
+}
+
+.ts-button {
+	border-radius:22px;
+	font-family: 'SourceSansPro-Black';	
+	font-size: 15px;	
+}
+
+.ts-button_start {
+	width: 200px;
+	height:50px;
+	border: 3px solid black;
+	border-radius: 25px;
+	text-transform: uppercase;	
+}
+
+.ts-button_send {
+	background-color:#fff;
+}
+
+.ts-wrapper__about-me {
+	height: 43vh;
+}
+
+.ts-about-me {
+	height: 100%;	
+}
+
+.ts-progress-bar__layout {
+	margin:20px 0;
+}
+
+.ts-progress-bar__description {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'SourceSansPro-Light';
+	font-size: 12px;
+}
+
+.ts-progress-bar__description_dark {
+	color: #161616;
+}
+
+.ts-progress-bar__description_light {
+	color: #ffffff;
+}
+
+.ts-progress-bar {
+	border-width: 0;/*стили для прогресс???*/
+}
+
+.ts-progress-bar__size {
+	width: 100%;
+	height: 3px;
+}
+
+.ts-wrapper__sphere {
+	height: 43vh;	
+}
+
+.ts-sphere {
+	height: 100%;
+}
+
+.ts-sphere__item {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;	
+}
+
+.ts-sphere__item_light {
+	color: #ffe9d7;		
+}
+
+.ts-sphere__item_dark {
+	color: #a2a39e;		
+}
+
+.ts-icon {
+
+}
+
+.ts-sphere-title__layout {
+	margin: 15px 0;	
+}
+
+.ts-sphere-title {
+	font-family: 'SourceSansPro-Regular';
+	font-size: 23px;
+	text-transform: capitalize;
+
+}
+
+.ts-wrapper__my-experiences {
+	height: 50vh;	
+}
+
+.ts-my-experiences {
+	height: 100%;	
+}
+
+.ts-wrapper__my-education {
+	height: 50vh;	
+}
+
+.ts-my-education {
+	height: 100%;	
+}
+
+.ts-wrapper__summary {
+	height: 50vh;	
+}
+
+.ts-summary {
+	height: 100%;
+}
+
+.ts-wrapper__contacts {
+	height: 60vh;	
+}
+
+.ts-contacts{
+	height: 100%;
+}
+
+.ts-wrapper__footer {
+	height: 40vh;	
+}
+
+.ts-footer{
+	height:100%;
+}
+
+. {
+	
+}
+
+. {
+	
+}
+
+. {
+	
+}
+
+. {
+	
+}
+
+. {
+	
+}
+
+. {
+	
+}
+
+. {
+	
+}
+
+. {
+	
+}
