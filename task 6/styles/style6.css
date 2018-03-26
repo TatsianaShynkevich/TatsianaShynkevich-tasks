@@ -9,8 +9,8 @@
 
 .ts-wrapper__header {
 	position: relative;
-	height: 200px;
 	overflow: hidden;	
+	height: 200px;
 }
 
 .ts-header {
@@ -88,47 +88,47 @@
 	background-position: -210px -21px; 	
 }
 
-.ts-social-sprite_facebook: hover {
+.ts-social-sprite_facebook:hover {
 	background-position: 0px -42px;
 }
 
-.ts-social-sprite_flickr: hover {
+.ts-social-sprite_flickr:hover {
 	background-position: -21px -42px;
 }
 
-.ts-social-sprite_drible: hover {
+.ts-social-sprite_drible:hover {
 	background-position: -42px -42px; 	
 }
 
-.ts-social-sprite_google: hover {
+.ts-social-sprite_google:hover {
 	background-position: -63px -42px; 	
 }
 
-.ts-social-sprite_linkedin: hover {
+.ts-social-sprite_linkedin:hover {
 	background-position: -84px -42px; 	
 }
 
-.ts-social-sprite_pinterest: hover {
+.ts-social-sprite_pinterest:hover {
 	background-position: -105px -42px; 	
 }
 
-.ts-social-sprite_rss: hover {
+.ts-social-sprite_rss:hover {
 	background-position: -126px -42px; 	
 }
 
-.ts-social-sprite_skype: hover {
+.ts-social-sprite_skype:hover {
 	background-position: -147px -42px; 	
 }
 
-.ts-social-sprite_twitter: hover {
+.ts-social-sprite_twitter:hover {
 	background-position: -168px -42px; 	
 }
 
-.ts-social-sprite_vimeo: hover {
+.ts-social-sprite_vimeo:hover {
 	background-position: -189px -42px; 	
 }
 
-.ts-social-sprite_youtube: hover {
+.ts-social-sprite_youtube:hover {
 	background-position: -210px -42px; 	
 }
 
@@ -155,7 +155,6 @@
 }
 
 .ts-wrapper__content-container {
-	height: 117px;
 	margin: 8px;
 }
 
@@ -164,7 +163,7 @@
 }
 
 .ts-content-container_theme-light {
-	border-style: 1px solid #eaeaea;/*!!!!!!!!!!!!*/
+	border: 1px solid #eaeaea;/*!!!!!!!!!!!!*/
 	border-radius: 1px;
 }
 
