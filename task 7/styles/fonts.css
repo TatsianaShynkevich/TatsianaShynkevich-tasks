@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'SourceSansPro-Regular';
+	src: url('../fonts/Source Sans Pro/SourceSansPro-Regular.eot?') format('eot'), 
+	     url('../fonts/Source Sans Pro/SourceSansPro-Regular.woff') format('woff'), 
+	     url('../fonts/Source Sans Pro/SourceSansPro-Regular.ttf')  format('truetype'),
+	     url('../fonts/Source Sans Pro/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+	}
+@font-face {
+	font-family: 'SourceSansPro-Light';
+	src: url('../fonts/Source Sans Pro/SourceSansPro-Light.eot?') format('eot'), 
+	     url('../fonts/Source Sans Pro/SourceSansPro-Light.woff') format('woff'), 
+	     url('../fonts/Source Sans Pro/SourceSansPro-Light.ttf')  format('truetype'),
+	     url('../fonts/Source Sans Pro/SourceSansPro-Light.svg#SourceSansPro-Light') format('svg');
+	}
+@font-face {
+	font-family: 'SourceSansPro-Black';
+	src: url('../fonts/Source Sans Pro/SourceSansPro-Black.eot?') format('eot'), 
+	     url('../fonts/Source Sans Pro/SourceSansPro-Black.woff') format('woff'), 
+	     url('../fonts/Source Sans Pro/SourceSansPro-Black.ttf')  format('truetype'),
+	     url('../fonts/Source Sans Pro/SourceSansPro-Black.svg#SourceSansPro-Black') format('svg');/*??????*/
+	}

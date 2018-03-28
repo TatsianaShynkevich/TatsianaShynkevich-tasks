@@ -1,0 +1,40 @@
+.ts-progress-bar__layout {
+	margin:20px 0;
+}
+
+.ts-progress-bar__description {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'SourceSansPro-Black';
+	font-size: 12px;
+}
+
+.ts-progress-bar__description_dark {
+	color: #161616;
+}
+
+.ts-progress-bar__description_light {
+	color: #ffffff;
+}
+
+.ts-progress-bar {
+	background-color: #161616;
+}
+
+.ts-progress-bar::-webkit-progress-bar {
+	background-color: #fff;  
+}
+
+.ts-progress-bar::-webkit-progress-value {
+	background-color: #161616;
+}
+
+.ts-progress-bar::-moz-progress-bar {
+	background-color: #fff;	
+}
+
+.ts-progress-bar__size {
+	width: 100%;
+	height: 3px;
+	border: 0;	
+}

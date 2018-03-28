@@ -1,0 +1,29 @@
+.ts-header__layout {
+	position: absolute;
+	width: 80%;
+	margin:30px 10%;
+}
+
+.ts-logo {
+	font-family: 'SourceSansPro-Black';
+	font-size: 17px;
+	color: #312728;
+	text-shadow:  1px 1px 0px #fff3f0;
+}
+
+.ts-menu__layout {
+	display: flex;
+	justify-content: space-around;
+}
+
+.ts-menu__item {
+	list-style: none;
+	font-family: 'SourceSansPro-Regular';
+	font-size: 17px;
+	color: #686868;	
+	text-transform: uppercase;
+}
+
+.ts-menu__item:hover {
+	color: #e0b37c;	
+}

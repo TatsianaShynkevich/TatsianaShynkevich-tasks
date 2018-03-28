@@ -28,14 +28,13 @@ font-style: normal;
 	     url('../fonts/Source Sans Pro/SourceSansPro-Black.ttf')  format('truetype'),
 	     url('../fonts/Source Sans Pro/SourceSansPro-Black.svg#SourceSansPro-Black') format('svg');/*??????*/
 	}
-	
-	
-.ts-page__wrapper {
-	position:relative;/*??????*/
-}
 
 .ts-wrapper {
 
+}
+
+.ts-wrapper_layout {
+	/*position:relative;??????*/
 }
 
 .ts-wrapper__header {
@@ -46,11 +45,14 @@ font-style: normal;
 }
 
 .ts-header {
-	display: flex;
+}
+
+.ts-header__layout {
+	display:flex;	
 }
 
 .ts-header__logo {
-	flex-basis: 60%;
+	width: 60%;/*flex-basis?*/
 }
 .ts-logo {
 	font-family: 'SourceSansPro-Black';
@@ -59,10 +61,10 @@ font-style: normal;
 	text-shadow:  1px 1px 0px #fff3f0;
 }
 .ts-header__menu {
-	flex-basis:40%;
+	width:40%;/*flex-basis?*/
 }
 
-.ts-menu {
+.ts-menu__layout {
 	display: flex;
 	justify-content: space-between;
 }
@@ -87,30 +89,30 @@ font-style: normal;
 	height:100%;	
 }
 
-.ts-row {
+.ts-row__layout {
 	display:flex;
 	height:100%;
 }
 
-.ts-tile_size1 {
-	flex-basis:25%;
+/*.ts-tile_small {
+	width:25%;
 	height:100%;	
 }
 
-.ts-tile_size2 {
-	flex-basis:50%;
+.ts-tile_medium {
+	width:50%;
 	height:100%;	
 }
 
-.ts-tile_size4 {
-	flex-basis:100%;
+.ts-tile_big {
+	width:100%;
 	height:100%;	
-}
+}*/
 
 .ts-tile__layout { 
-	display:flex;
+	/*display:flex;нужно ли
 	flex-direction:column;
-	justify-content:center;
+	justify-content:center;*/
 	height:100%;
 	margin:0 5%;
 }
@@ -132,7 +134,7 @@ font-style: normal;
 }
 
 .ts-tile_light {
-	background-color: #ffffff;
+	background-color: blue/*#ffffff*/;
 }
 
 .ts-tile_photo-welcome {
@@ -159,7 +161,7 @@ font-style: normal;
 	background-position: center;/*сделать адаптивным*/	
 }
 
-.ts-tile_photo-summary {
+.ts-tile_photo-testimonial {
 	background:  url(../images/6.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;/*сделать адаптивным*/
@@ -177,7 +179,7 @@ font-style: normal;
 }
 
 .ts-caption__layout {
-	margin:40px 0;
+	margin: 40px 0 30px;
 }
 
 .ts-caption_dark {
@@ -207,6 +209,14 @@ font-style: normal;
 
 .ts-subtitle_uppercase {
 	text-transform:uppercase;
+}
+
+.ts-text_uppercase {/*!!*/
+	text-transform:uppercase;
+}
+
+.ts-text_capitalize {/*!!*/
+	text-transform:capitalize;
 }
 
 .ts-text-container{
@@ -246,7 +256,7 @@ font-style: normal;
 }
 
 .ts-wrapper__about-me {
-	height: 43vh;
+	height:290px /*43vh*/;
 }
 
 .ts-about-me {
@@ -260,7 +270,7 @@ font-style: normal;
 .ts-progress-bar__description {
 	display: flex;
 	justify-content: space-between;
-	font-family: 'SourceSansPro-Light';
+	font-family: 'SourceSansPro-Black';
 	font-size: 12px;
 }
 
@@ -273,16 +283,30 @@ font-style: normal;
 }
 
 .ts-progress-bar {
-	border-width: 0;/*стили для прогресс???*/
+	background-color: #161616;
 }
+
+.ts-progress-bar::-webkit-progress-bar {
+	background-color: #fff;  
+}
+
+.ts-progress-bar::-webkit-progress-value {
+	background-color: #161616;
+}
+
+.ts-progress-bar::-moz-progress-bar {
+	background-color: #fff;	
+}
+ 
 
 .ts-progress-bar__size {
 	width: 100%;
 	height: 3px;
+	border: 0;	
 }
 
 .ts-wrapper__sphere {
-	height: 43vh;	
+	height: 290px/*43vh*/;	
 }
 
 .ts-sphere {
@@ -316,35 +340,90 @@ font-style: normal;
 	font-family: 'SourceSansPro-Regular';
 	font-size: 23px;
 	text-transform: capitalize;
-
 }
 
 .ts-wrapper__my-experiences {
-	height: 50vh;	
+	height:387px /*50vh*/;
 }
 
 .ts-my-experiences {
 	height: 100%;	
 }
 
+.ts-resume__layout {
+	margin-top: 61px;
+}
+
+.ts-resume-item__layout {
+	margin-top: 41px;
+}
+
+.ts-subtitle-resume {
+	font-family: 'SourceSansPro-Regular';
+	font-size:15px;
+	color: #fff;
+}
+
+.ts-icon__resume {
+	font-size:40px;
+	color: #fff;
+}
+
+.ts-icon__layout {
+	margin-right: 24px;
+}
+
+.ts-job__layout {
+	margin-bottom: 24px;
+}
+
+.ts-job-name {
+	font-family: 'SourceSansPro-Light';
+	font-size: 30px;
+	color: #fff;	
+}
+
+.ts-job-date {
+	font-family: 'SourceSansPro-Black';
+	font-size: 15px;
+	color: #5e3738;	
+}
+
 .ts-wrapper__my-education {
-	height: 50vh;	
+	min-height: 445px/*50vh*/;	
 }
 
 .ts-my-education {
 	height: 100%;	
 }
 
-.ts-wrapper__summary {
-	height: 50vh;	
+.ts-education-date {
+	font-family: 'SourceSansPro-Black';
+	font-size: 15px;
+	color: #8c6314;	
 }
 
-.ts-summary {
+.ts-wrapper__testimonial {
+	height:480px /*50vh*/;	
+}
+
+.ts-testimonial {
 	height: 100%;
+	text-align:center;
+}
+
+.ts-img-overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+}
+
+.ts-icon__star {
+	font-size: 45px;
 }
 
 .ts-wrapper__contacts {
-	height: 60vh;	
+	min-height: 615px/*60vh*/;	
 }
 
 .ts-contacts{
@@ -352,7 +431,7 @@ font-style: normal;
 }
 
 .ts-wrapper__footer {
-	height: 40vh;	
+	height: 377px/*40vh*/;	
 }
 
 .ts-footer{
