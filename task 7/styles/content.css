@@ -1,6 +1,6 @@
 .ts-welcome-text__layout {
 	max-width: 900px;
-	margin: 30% 52px 0; /*????*/
+	margin: 253px 52px 0; /*????*/
 }
 
 .ts-caption {
@@ -181,5 +181,31 @@
 .ts-caption-testimonial__layout {
 	margin:30px 100px 20px;
 	text-align:center;
+}
+
+.ts-tile-contact__layout {
+	margin:61px 20px 20px 52px;
+}
+
+.ts-subtitle-contact__layout {
+	margin-top: 20px;
+}
+
+.ts-input__layuot-contact {
+	margin:10px 0;	
+} 
+
+.ts-button__layuot-contact {
+	width:300px;
+	height:40px;
+} 
+
+.ts-input {
+	border: none;
+	border-bottom: 1px solid #e4ae58;
+	background-color:transparent;
+	font-family: 'SourceSansPro-Light';
+	font-size: 20px;
+	color: #fff;	
 }
 
