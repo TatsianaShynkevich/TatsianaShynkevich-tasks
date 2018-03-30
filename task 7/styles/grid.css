@@ -1,11 +1,14 @@
 .ts-wrapper__layout {
-	position:relative;
+	max-width: 2000px;
+	margin: 0 auto;
 }
 
 .ts-flex__column {
 	display:flex;
-	flex-direction:column;	
+	flex-direction:column;
+	height: 100%;
 }
+
 .ts-flex__row {
 	display: flex;
 	flex-direction: row;
@@ -23,7 +26,7 @@
 }
 
 .ts-tile_medium {
-	width:50%;
+	width:50%;	
 }
 
 .ts-tile_big {
@@ -71,6 +74,7 @@
 	background:  url(../images/5.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;/*сделать адаптивным*/
+
 }
 
 .ts-tile_photo-about-me {
@@ -80,6 +84,7 @@
 }
 
 .ts-tile_photo-my-experiences {
+	height: 100%;	
 	background:  url(../images/4.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;/*сделать адаптивным*/	
@@ -92,61 +97,14 @@
 }
 
 .ts-tile_photo-testimonial {
+	
 	background:  url(../images/6.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;/*сделать адаптивным*/
 }
 
-.ts-tile_photo-contact {
+.ts-tile_photo-contact {	
 	background:  url(../images/2.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;/*сделать адаптивным*/
-}
-
-.ts-welcome-page__layout {
-	display: flex;
-	align-items: stretch;	
-	height: 820px;
-}
-
-.ts-skills__layout {
-	display: flex;
-	align-items: stretch;
-	min-height: 290px;	
-}
-
-.ts-sphere__layout {
-	display: flex;
-	align-items: stretch;
-	min-height: 336px;
-}
-
-.ts-resume__layout {
-	display: flex;
-	align-items: stretch;	
-	min-height: 387px;
-}
-
-.ts-education__layout {
-	display: flex;
-	align-items: stretch;	
-	min-height: 445px;
-}
-
-.ts-testimonial__layout {
-	display: flex;
-	align-items: stretch;	
-	min-height: 480px;
-}
-
-.ts-contact__layout {
-	display: flex;
-	align-items: stretch;	
-	min-height: 615px;
-}
-
-.ts-footer__layout {
-	display: flex;
-	align-items: stretch;	
-	min-height: 377px;
 }

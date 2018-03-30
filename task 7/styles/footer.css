@@ -1,0 +1,26 @@
+.ts-footer {
+	color: #8b8a86;	
+}
+
+.ts-footer__layout {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 377px;
+}
+
+.ts-copyright {
+	font-family: 'SourceSansPro-Light';
+	font-size: 18px;;
+}
+
+.ts-footer__copyright {
+	margin-bottom: 57px;
+}
+
+.ts-footer__icons {
+	display: flex;
+	justify-content: space-around;
+	min-width: 30%;
+}

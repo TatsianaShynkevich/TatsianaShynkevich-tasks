@@ -1,0 +1,31 @@
+.ts-text-logo {
+	font-family: 'SourceSansPro-Regular';
+}
+
+.ts-text_light {
+	color: #fff;
+}
+
+.ts-text_dark {
+	color: #161616;
+}
+
+.ts-icon_big {
+	font-size: 30px;
+}
+
+.ts-icon_small {
+	font-size: 15px;
+}
+
+.ts-icon_light {
+	color: #fff;
+}
+
+.ts-icon_dark {
+	font-size: #161616;
+}
+
+.ts-icon_gray {
+	font-size: #8b8a86;
+}

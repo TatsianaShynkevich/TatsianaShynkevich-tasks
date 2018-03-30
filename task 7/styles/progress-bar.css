@@ -1,7 +1,3 @@
-.ts-progress-bar__layout {
-	margin:20px 0;
-}
-
 .ts-progress-bar__description {
 	display: flex;
 	justify-content: space-between;
@@ -17,19 +13,20 @@
 	color: #ffffff;
 }
 
-.ts-progress-bar {
+.ts-progress-bar__item {
+	margin-bottom: 10px;
 	background-color: #161616;
 }
 
-.ts-progress-bar::-webkit-progress-bar {
+.ts-progress-bar__item::-webkit-progress-bar {
 	background-color: #fff;  
 }
 
-.ts-progress-bar::-webkit-progress-value {
+.ts-progress-bar__item::-webkit-progress-value {
 	background-color: #161616;
 }
 
-.ts-progress-bar::-moz-progress-bar {
+.ts-progress-bar__item::-moz-progress-bar {
 	background-color: #fff;	
 }
 

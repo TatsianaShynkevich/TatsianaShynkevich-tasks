@@ -1,0 +1,22 @@
+@media screen and (min-width: 1170px) {
+.ts-nav-burger {
+    display: none;
+}}
+
+@media screen and (max-width: 1170px) {
+.ts-menu {
+    display: none;
+}
+
+.ts-tile_small {
+    width: 50%;
+}
+
+.ts-tile_medium {
+    width: 100%;
+}}
+
+@media screen and (max-width: 750px) {
+.ts-tile_small {
+    width: 100%;
+}}
