@@ -2,7 +2,7 @@
 	color: #8b8a86;	
 }
 
-.ts-footer__layout {
+.ts-footer__inner {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

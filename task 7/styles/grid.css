@@ -1,110 +1,52 @@
-.ts-wrapper__layout {
-	max-width: 2000px;
-	margin: 0 auto;
-}
-
-.ts-flex__column {
-	display:flex;
-	flex-direction:column;
-	height: 100%;
-}
-
-.ts-flex__row {
-	display: flex;
+.ts-grid__row {
+	display: flex;		
 	flex-direction: row;
 	flex-wrap: wrap;
-	align-items: stretch;
-    width: 100%;	
-}
-
-.ts-flex__row_nowrap {
-	flex-wrap: nowrap;
-}
-
-.ts-tile_small {
-	width:25%;
-}
-
-.ts-tile_medium {
-	width:50%;	
-}
-
-.ts-tile_big {
+	justify-content: center;
+	align-content: stretch;
+	height: 100%;
 	width: 100%;
 }
 
-.ts-tile__layout {
-	margin:20px;
+.ts-grid__row_full-height {
+	height: 100vh;
 }
 
-@media screen and (max-width: 1170px) {
-.ts-tile_small {
-    width: 50%;
+.ts-grid__row_half-full-height {
+	height: 50vh;
 }
-.ts-tile_medium {
-    width: 100%;
-}}
 
-@media screen and (max-width: 750px) {
-.ts-tile_small {
-    width: 100%;
-}}
+.ts-grid__column {
+	display: flex;		
+	flex-direction: column;
+	justify-content: center;	
+	height: 100%;
+}
 
-.ts-tile_beige {
+.ts-grid__column_small {
+	width: 25%;	
+}
+
+.ts-grid__column_medium {
+	width: 50%;
+}
+
+.ts-grid_beige {	
 	background-color: #f0e2d7;
 }
 
-.ts-tile_mustard {
+.ts-grid_mustard {	
 	background-color: #e4ae58;
 }
 
-.ts-tile_salmon {
+.ts-grid_salmon {
 	background-color: #e9714c;
 }
 
-.ts-tile_dark {
+.ts-grid_dark {	
 	background-color: #161616;
 }
 
-.ts-tile_light {
-	background-color: #ffffff;
-}
-
-.ts-tile_photo-welcome {
-	background:  url(../images/5.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;/*сделать адаптивным*/
-
-}
-
-.ts-tile_photo-about-me {
-	background:  url(../images/1.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;/*сделать адаптивным*/
-}
-
-.ts-tile_photo-my-experiences {
-	height: 100%;	
-	background:  url(../images/4.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;/*сделать адаптивным*/	
-}
-
-.ts-tile_photo-my-education {
-	background:  url(../images/3.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;/*сделать адаптивным*/	
-}
-
-.ts-tile_photo-testimonial {
-	
-	background:  url(../images/6.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;/*сделать адаптивным*/
-}
-
-.ts-tile_photo-contact {	
-	background:  url(../images/2.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;/*сделать адаптивным*/
+.ts-grid_light {	
+	background-color: #fff;
 }
