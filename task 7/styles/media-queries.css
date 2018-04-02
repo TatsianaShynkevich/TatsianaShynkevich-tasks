@@ -80,8 +80,13 @@
 	height: auto;
 }}
 
-@media screen and (max-width: 150px) {
-.ts-spheres__sphere-item {
-	height: auto;
+@media screen and (max-width: 450px) {
+.ts-testimonial__icon-item {
+    margin: 22px 42px;
+}}
+
+@media screen and (max-width: 250px) {
+.ts-spheres__icon-item {
+    height: auto;
 }}
 
