@@ -116,6 +116,7 @@
 
 .ts-photo {	
 	width: 100%;
+	min-height: 350px;
 	height: 100%;
 	background-size: cover;
 	background-position: center;
@@ -147,20 +148,20 @@
 }
 
 .ts-button {
-	border-radius:22px;
+	border-radius: 200px;
 	font-family: 'SourceSansPro-Black';	
 	font-size: 15px;	
 }
 
 .ts-button_start {
-	width: 200px;
-	height:50px;
-	border: 3px solid black;
-	border-radius: 25px;
+	width: 100%;
+	height: 100%;
 	text-transform: uppercase;	
 }
 
 .ts-button_send {
+	width: 100%;
+	height: 100%;
 	background-color:#fff;
 }
 

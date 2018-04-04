@@ -24,7 +24,7 @@
 								<div class="ts-menu__container">
 									<div class="ts-grid__column_medium">
 										<div class="ts-logo">
-											Stimulus
+											<a href="#home">Stimulus</a>
 										</div>
 									</div>
 									<div class="ts-grid__column_medium">
@@ -55,7 +55,7 @@
 								<li class="ts-nav__item ts-nav-burger__item"><a href="#contact">Contact</a></li>
 							</ul>						
 						</div>				
-					<div class="ts-grid__row ts-grid__row_full-height">
+					<div class="ts-grid__row">
 						<div class="ts-grid__column_medium">
 							<div class="ts-photo ts-photo_welcome">
 							</div>
@@ -122,11 +122,11 @@
 							<div class="ts-skills__progress">
 								<div class="ts-progress">
 									<div class="ts-progress__caption">
-										<div class="ts-caption ts-caption_light">
+										<div class="ts-caption ts-text_light">
 											My skills
 										</div>
 									</div>
-									<div class="ts-subtitle ts-subtitle_light">
+									<div class="ts-subtitle ts-text_light">
 										Photoshop, HTML, CSS, JS, Web-design
 									</div>
 									<div class="ts-progress__progress-bar">
@@ -182,7 +182,6 @@
 						<div class="ts-grid__column_small ts-grid_mustard">
 							<div class="ts-spheres__icon-item">							
 								<div class="ts-icon-item">
-									<div class="ts-icon-item__inner">
 										<div class="ts-icon_big">												
 											<div class="ts-icon_light">
 												<i class="fa fa-desktop"></i>
@@ -193,15 +192,13 @@
 										</div>
 										<div class="ts-text-box ts-text-box_center ts-text_light">
 											Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.
-										</div>										
-									</div>
+										</div>
 								</div>
 							</div>							
 						</div>
 						<div class="ts-grid__column_small ts-grid_salmon">
 							<div class="ts-spheres__icon-item">							
 								<div class="ts-icon-item">
-									<div class="ts-icon-item__inner">
 										<div class="ts-icon_big">												
 											<div class="ts-icon_light">
 												<i class="fa fa-paper-plane"></i>
@@ -212,15 +209,13 @@
 										</div>
 										<div class="ts-text-box ts-text-box_center ts-text_light">
 											Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.
-										</div>										
-									</div>
+										</div>
 								</div>
 							</div>
 						</div>						
 						<div class="ts-grid__column_small ts-grid_dark">
 							<div class="ts-spheres__icon-item">							
 								<div class="ts-icon-item">
-									<div class="ts-icon-item__inner">
 										<div class="ts-icon_big">												
 											<div class="ts-icon_light">
 												<i class="fa fa-table"></i>
@@ -231,15 +226,13 @@
 										</div>
 										<div class="ts-text-box ts-text-box_center ts-text_light">
 											Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.
-										</div>										
-									</div>
+										</div>
 								</div>
 							</div>
 						</div>
 						<div class="ts-grid__column_small ts-grid_light">
 							<div class="ts-spheres__icon-item">							
 								<div class="ts-icon-item">
-									<div class="ts-icon-item__inner">
 										<div class="ts-icon_big">												
 											<div class="ts-icon_dark">
 												<i class="fa fa-html5"></i>
@@ -250,8 +243,7 @@
 										</div>
 										<div class="ts-text-box">
 											Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.
-										</div>										
-									</div>
+										</div>
 								</div>
 							</div>
 						</div>							
@@ -426,26 +418,30 @@
 					</div>
 				</section>
 				<section class="ts-testimonial">
-					<div class="ts-grid__row ts-grid__row_half-full-height">
+					<div class="ts-grid__row">
 						<div class="ts-photo ts-photo_testimonial">
-							<div class="ts-testimonial_color-overlay">
-								<div class="ts-testimonial__icon-item">							
+							<div class="ts-testimonial__color-overlay">						
+								<div class="ts-testimonial__icon-item">									
 									<div class="ts-icon-item">
-										<div class="ts-icon-item__inner">
+										<div class="ts-icon-item__icon">									
 											<div class="ts-icon_big">												
 												<div class="ts-icon_light">
 													<i class="fa fa-star"></i>
 												</div>
 											</div>
+										</div>
+										<div class="ts-icon-item__caption">									
 											<div class="ts-caption ts-text_light">
 												Proin lobortis eu diam et facilisis. Fusce nisi nibn, molestie in vestibulum quis, auctor et orci.
 											</div>
+										</div>
+										<div class="ts-icon-item__text-box">									
 											<div class="ts-text-box ts-text_light">
 												Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.
-											</div>										
-										</div>
+											</div>
+										</div>									
 									</div>
-								</div>
+								</div>								
 							</div>
 						</div>
 					</div>
@@ -468,7 +464,9 @@
 													<input class="ts-input ts-contact-name ts-input__layuot-contact" placeholder="Your Name"></input>
 													<input class="ts-input ts-contact-email ts-input__layuot-contact" placeholder="Your Email"></input>
 													<textarea class="ts-input tts-contact-message ts-input__layuot-contact" name="comment" cols="40" rows="10" placeholder="Write your message..."></textarea>
-													<button class="ts-button ts-button_send ts-button__layuot-contact ts-input__layuot-contact">Send</button>
+													<div class="ts-contact-form__button">
+														<button class="ts-button ts-button_send">Send</button>
+													</div>
 												</div>
 											</form>
 									</div>
